@@ -27,7 +27,6 @@ export default function HomePage(){
   const cambiarTitulo = (title)=>{
     try {
       const titulo = document.getElementById('titulo');
-      console.log(titulo.value, title)
       switch(title){
         case '1':
           setTitle1(titulo.value);
